@@ -9,10 +9,11 @@
 </head>
 
 <body class="bg-Backgrounds01">
+
     <main class="flex w-full h-screen">
         <div class="bg-Backgrounds02 w-2/5 h-full p-15 flex flex-col gap-5">
-            <div class="bg-Titulos w-15 h-15">LOGO</div>
-            <form action="" class="w-full h-full flex flex-col gap-5">
+            <div class="w-15 h-15"><img src="./images/Chronofy_Logo.png" alt="" class="w-full"></div>
+            <form action="index.php" method="post" class="w-full h-full flex flex-col gap-5">
                 <div class="w-5/10 h-20">
                     <h1 class="text-4xl text-Titulos">Bem Vindo</h1>
                     <p class="text-Subtitulos">*Prencha todos os campos abaixo:</p>
@@ -29,7 +30,7 @@
                                             d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                                     </svg>
                                 </div>
-                                <input type="text" name="" id="" class="inputs" placeholder="Primeiro nome">
+                                <input type="text" name="PrimeiroNome" id="" class="inputs" placeholder="Primeiro nome">
                             </div>
                         </div>
                         <div class="w-full">
@@ -42,7 +43,7 @@
                                             d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                                     </svg>
                                 </div>
-                                <input type="text" name="" id="" class="inputs" placeholder="Último nome">
+                                <input type="text" name="SobreNome" id="" class="inputs" placeholder="Último nome">
                             </div>
                         </div>
                     </div>
@@ -55,7 +56,7 @@
                                         d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                                 </svg>
                             </div>
-                            <input type="email" name="" id="" class="inputs" placeholder="Insira seu Email">
+                            <input type="email" name="Email" id="" class="inputs" placeholder="Insira seu Email">
                         </div>
                     </div>
                     <div class="w-full">
@@ -67,7 +68,7 @@
                                         d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
                                 </svg>
                             </div>
-                            <input type="password" name="" id="" class="inputs" placeholder="Senha">
+                            <input type="password" name="Senha" id="" class="inputs" placeholder="Senha">
                             <div class="h-5 w-5">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="w-full text-Titulos">
@@ -88,7 +89,8 @@
                                         d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
                                 </svg>
                             </div>
-                            <input type="password" name="" id="" class="inputs" placeholder="Confiramar Senha">
+                            <input type="password" name="ConfirmSenha" id="" class="inputs"
+                                placeholder="Confiramar Senha">
                             <div class="h-5 w-5">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="w-full text-Titulos">
@@ -103,7 +105,7 @@
                 </div>
                 <div class="">
                     <input type="submit" value="Enviar"
-                        class="w-full h-12.5 bg-DetalhesVerde text-md font-bold duration-300 hover:cursor-pointer hover:bg-[#6ad650]">
+                        class="w-full h-12.5 bg-DetalhesVerde text-md font-bold duration-300 hover:cursor-pointer hover:bg-[#81cf6e]">
                 </div>
                 <div class=" flex justify-center items-center w-full h-3 gap-2">
                     <div class="w-15 h-0.5 bg-Subtitulos"></div>
@@ -121,10 +123,10 @@
                     </a>
                 </div>
                 <div class="flex justify-center items-center w-full h-3">
-                    <div class="w-3/10 h-full flex gap-2 justify-center items-center">
+                    <div class="w-5/10 h-full flex gap-2 justify-center items-center">
                         <p class="text-md text-Subtitulos">Já tem conta?</p>
                         <a href=""
-                            class="text-md text-DetalhesVerde duration-300 underline hover:text-[#6ad650]">Login</a>
+                            class="text-md text-DetalhesVerde duration-300 underline hover:text-[#81cf6e]">Login</a>
                     </div>
                 </div>
             </form>
@@ -138,6 +140,7 @@
         padding: 8px;
         background-color: none;
         border: none;
+        color: #eceef4;
     }
 
     .inputs:focus {
@@ -148,6 +151,26 @@
         color: #d8dee9;
     }
     </style>
+    <?php
+    require __DIR__ . '/../config/database.php';
+    $Nome = $_POST["PrimeiroNome"];
+    $Sobrenome = $_POST["SobreNome"];
+    $Email = $_POST["Email"];
+    $Senha = trim($_POST["Senha"]); // Remove espaços extras
+    $Confirm = trim($_POST["ConfirmSenha"]); // Remove espaços extras
+
+    if ($Senha === $Confirm) { // Comparação estrita (verifica valor e tipo)
+        $sql = "INSERT INTO usuario (Nome, Email, Senha)
+        VALUES ('$Nome','$Email','$Senha')";
+        if ($conexao->query($sql) === TRUE) {
+            echo "Registro Feito com Sucesso";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conexao->error;
+        }
+    } else {
+        echo "As senhas não condizem";
+    }
+    ?>
 </body>
 
 </html>

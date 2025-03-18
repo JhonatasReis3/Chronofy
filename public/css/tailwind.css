@@ -29,10 +29,10 @@
     --default-mono-font-variation-settings: var(
       --font-mono--font-variation-settings
     );
-    --color-Backgrounds01: #0b0011;
-    --color-Backgrounds02: #100018;
+    --color-Backgrounds01: #000309;
+    --color-Backgrounds02: #00050e;
     --color-Titulos: #b5ccf8;
-    --color-Subtitulos: #d8dee9;
+    --color-Subtitulos: #eceef4;
     --color-DetalhesVerde: #93ed7e;
   }
 }
@@ -1124,9 +1124,6 @@
   .bg-Subtitulos {
     background-color: var(--color-Subtitulos);
   }
-  .bg-Titulos {
-    background-color: var(--color-Titulos);
-  }
   .bg-\[\#0088cc\] {
     background-color: #0088cc;
   }
@@ -1922,17 +1919,17 @@
       }
     }
   }
-  .hover\:bg-\[\#6ad650\] {
+  .hover\:bg-\[\#81cf6e\] {
     &:hover {
       @media (hover: hover) {
-        background-color: #6ad650;
+        background-color: #81cf6e;
       }
     }
   }
-  .hover\:text-\[\#6ad650\] {
+  .hover\:text-\[\#81cf6e\] {
     &:hover {
       @media (hover: hover) {
-        color: #6ad650;
+        color: #81cf6e;
       }
     }
   }
